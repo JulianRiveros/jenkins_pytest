@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages {
-        stage(""){
+        stage("testing"){
           steps{
                 sh 'pip install pytest'
                 sh 'python -m pytest -v'
